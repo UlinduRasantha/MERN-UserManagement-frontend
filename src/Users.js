@@ -37,7 +37,7 @@ const Users = () => {
             .then(() => {
                 getUsers();
                 setSubmitted(false);
-                isEdit(false);
+                //isEdit(false);
             })
             .catch(error => {
                 console.error("Axio s error:", error);
@@ -55,7 +55,7 @@ const Users = () => {
             .then(() => {
                 getUsers();
                 setSubmitted(false);
-                isEdit(false);
+                //isEdit(false);
             })
             .catch(error => {
                 console.error("Axio s error:", error);
