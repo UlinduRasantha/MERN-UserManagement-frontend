@@ -29,11 +29,11 @@ const UserForm = ({ addUser, updateUser, submitted, data, isEdit }) => {
                 display: 'block',
             }}
         >
-            <Grid item xs={12} >
+            <Grid gridColumn="span 12" >
                 <Typography component= {'h1'} sx={{color: '#000000'}}>User Form</Typography>
             </Grid>
 
-            <Grid item xs={12} sm={6} sx={{display: 'flex'}}>
+            <Grid gridColumn="span 12" md={6} sx={{display: 'flex'}}>
                 <Typography 
                     component={'label'} 
                     htmlFor="id"
